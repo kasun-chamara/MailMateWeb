@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: linear-gradient(to right, #ffffff, #daf2fe);
+    color: #fff;
+    padding-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #35ffdd, #0154c0);
+    border-image-slice: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px 15px;
+}
+
+#home-link.active,
+#pricing-link.active {
+    text-decoration: underline;
+}
+
+.logo {
+    max-width: 80px;
+    padding-left: 20px;
+}
+
+.button {
+    background: linear-gradient(to right, #35ffdd, #0154c0);
+    color: #fff;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: -8px;
+    margin-right: 20px;
+    transition: background 0.3s ease;
+    border-radius: 15px;
+}
+
+
+/* .probtn {
+    background: #0C8CE9;
+    color: #fff;
+    border: none;
+    padding: 12px 15px;
+    margin-left: -8px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+    border-radius: 20px;
+} */
+
+.button:hover {
+    background: linear-gradient(to right, #4486DD, #0C8CE9);
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 20px;
+}
+
+.hero-text h1 {
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-style: hiden;
+    text-align: left;
+    padding: 8px;
+    width: 20%;
+}
+
+.fixed-width {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+}
